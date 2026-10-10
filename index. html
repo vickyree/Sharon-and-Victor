@@ -916,18 +916,299 @@
       </div>
     </section>
 
-    <!-- GALLERY -->
+<!-- GALLERY --><section class="section gallery-section" id="gallery">
+  <div class="container">
 
-    <section class="section gallery-section" id="gallery">
-      <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Moments we treasure</p>
+      <h2>Our photo gallery</h2>
+      <p>
+        A few photographs celebrating our journey
+        and the people who make it special.
+      </p>
+    </div>
 
-        <div class="section-heading">
-          <p class="eyebrow">Moments we treasure</p>
-          <h2>Our photo gallery</h2>
-          <p>
-            A few photographs celebrating our journey
-            and the people who make it special.
-          </p>
-        </div>
+    <div class="gallery">
 
-   
+      <a href="1.jpg" target="_blank" rel="noopener">
+        <img src="1.jpg" alt="Victor and Sharon — photograph 1" loading="lazy">
+      </a>
+
+      <a href="2.jpg" target="_blank" rel="noopener">
+        <img src="2.jpg" alt="Victor and Sharon — photograph 2" loading="lazy">
+      </a>
+
+      <a href="3.jpg" target="_blank" rel="noopener">
+        <img src="3.jpg" alt="Victor and Sharon — photograph 3" loading="lazy">
+      </a>
+
+      <a href="4.jpg" target="_blank" rel="noopener">
+        <img src="4.jpg" alt="Victor and Sharon — photograph 4" loading="lazy">
+      </a>
+
+      <a href="5.jpg" target="_blank" rel="noopener">
+        <img src="5.jpg" alt="Victor and Sharon — photograph 5" loading="lazy">
+      </a>
+
+      <a href="6.jpg" target="_blank" rel="noopener">
+        <img src="6.jpg" alt="Victor and Sharon — photograph 6" loading="lazy">
+      </a>
+
+    </div>
+
+    <p class="gallery-note">
+      More beautiful memories will be added as the celebration approaches.
+    </p>
+  </div>
+</section>
+
+<!-- RSVP --><section class="section rsvp-section" id="rsvp">
+  <div class="container">
+
+    <div class="rsvp-card">
+      <p class="eyebrow">We would love to celebrate with you</p>
+
+      <h2>Will you join us?</h2>
+
+      <p>
+        Your presence and prayers will mean a great deal to us.
+        Please contact Bishop Charles for attendance confirmation
+        and any questions about the day.
+      </p>
+
+      <p><strong>Contact person:</strong> Bishop Charles</p>
+      <p><strong>Contact number:</strong> 0180508101</p>
+
+      <div class="rsvp-actions">
+        <a class="button button-pink" href="tel:0180508101">
+          Call for RSVP
+        </a>
+
+        <a class="button button-blue"
+           href="https://maps.app.goo.gl/wMj3xAvTGBDmD5qa9"
+           target="_blank" rel="noopener">
+          Get Directions
+        </a>
+      </div>
+
+      <p class="small-note">
+        Please confirm attendance arrangements with the contact person.
+        Verify the contact number before publication.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DRESS CODE, GIFTS & ACCOMMODATION --><section class="section" id="guest-info">
+  <div class="container">
+
+    <div class="section-heading">
+      <p class="eyebrow">A few helpful notes</p>
+      <h2>For our guests</h2>
+      <p>A little preparation will help everyone enjoy the day.</p>
+    </div>
+
+    <div class="info-grid">
+
+      <article class="info-card">
+        <h3>Dress code</h3>
+        <p>
+          Come dressed for a joyful and colourful celebration.
+          Smart, comfortable occasion wear is welcome.
+        </p>
+        <p>
+          Baby pink and sky blue inspire our website's colours.
+          Guests are welcome to wear colours they enjoy.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>Gifts & contributions</h3>
+        <p>Your presence, prayers and good wishes are deeply valued.</p>
+        <p>
+          Anyone wishing to ask about gifts or contributions can
+          contact Bishop Charles for the family's guidance.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>Travel & accommodation</h3>
+        <p>
+          The venue is Kebirigo Main Altar, Nyamira,
+          opposite Viongozi.
+        </p>
+        <p>
+          Please plan your transport and accommodation in advance.
+          Contact Bishop Charles if you need guidance.
+        </p>
+
+        <a class="button button-blue"
+           href="https://maps.app.goo.gl/wMj3xAvTGBDmD5qa9"
+           target="_blank" rel="noopener">
+          View Location
+        </a>
+      </article>
+
+      <article class="info-card">
+        <h3>Children & additional guests</h3>
+        <p>
+          Please confirm guest numbers and arrangements with
+          the contact person so the families can plan accordingly.
+        </p>
+        <p>Thank you for your understanding and cooperation.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ --><section class="section" id="faqs">
+  <div class="container">
+
+    <div class="section-heading">
+      <p class="eyebrow">Good to know</p>
+      <h2>Frequently asked questions</h2>
+      <p>A few quick answers to help you prepare.</p>
+    </div>
+
+    <div class="faq">
+
+      <details>
+        <summary>When is the wedding?</summary>
+        <p>
+          Friday, 27 November 2026. The church ceremony begins
+          at 9:00 AM, and the reception is scheduled for 1:00 PM.
+        </p>
+      </details>
+
+      <details>
+        <summary>Where will the wedding take place?</summary>
+        <p>
+          Kebirigo Main Altar, Nyamira, opposite Viongozi.
+          The ceremony and reception will be at the same venue.
+        </p>
+        <p>
+          Use the Google Maps button on this page for directions.
+        </p>
+      </details>
+
+      <details>
+        <summary>Who should I contact with questions?</summary>
+        <p>
+          Please contact Bishop Charles using the contact details
+          displayed in the RSVP section.
+        </p>
+      </details>
+
+      <details>
+        <summary>What should I wear?</summary>
+        <p>
+          Smart, comfortable occasion wear is recommended.
+          A joyful and colourful look is welcome.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I ask about gifts or contributions?</summary>
+        <p>
+          Yes. Please contact Bishop Charles for guidance
+          from the families.
+        </p>
+      </details>
+
+      <details>
+        <summary>Will the programme change?</summary>
+        <p>
+          The programme is a suggested outline. Please confirm
+          final arrangements with the families closer to the wedding.
+        </p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- GUEST MESSAGES --><section class="section">
+  <div class="container">
+
+    <div class="message-card">
+      <p class="eyebrow">A little love goes a long way</p>
+
+      <h2>Send us your wishes</h2>
+
+      <p>
+        Have a prayer, blessing or kind message for Victor and Sharon?
+        We would be delighted to hear from you.
+      </p>
+
+      <p>
+        Contact Bishop Charles to share your message with the families.
+      </p>
+
+      <a class="button button-pink" href="tel:0180508101">
+        Share Your Wishes
+      </a>
+
+      <p class="small-note">
+        Messages are shared privately through the contact person;
+        they are not automatically published on this website.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="footer-names">Victor & Sharon</div><p>Friday, 27 November 2026 · Nyamira, Kenya</p>
+
+<p>"I have found the one whom my soul loves."</p>
+
+<p>Song of Solomon 3:4</p>
+
+<p style="margin-top:24px; font-size:0.82rem;">
+  With love and gratitude, from both families.
+</p>
+
+  </footer>
+
+<script>
+    // Wedding date and local Kenyan time (UTC+3).
+    const weddingDate = new Date("2026-11-27T09:00:00+03:00").getTime();
+
+    function updateCountdown() {
+      const now = Date.now();
+      const distance = weddingDate - now;
+      const message = document.getElementById("countdown-message");
+
+      if (distance <= 0) {
+        document.getElementById("days").textContent = "0";
+        document.getElementById("hours").textContent = "0";
+        document.getElementById("minutes").textContent = "0";
+        document.getElementById("seconds").textContent = "0";
+
+        message.textContent = "Today is the day! Let the celebration begin.";
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (distance % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent = hours;
+      document.getElementById("minutes").textContent = minutes;
+      document.getElementById("seconds").textContent = seconds;
+
+      message.textContent = "Every moment brings us closer to the big day.";
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script></body>
+</html>
