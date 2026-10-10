@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Victor & Sharon | Our Wedding</title>
+
+  <meta name="description"
+        content="Join Victor and Sharon as they celebrate their wedding on 27 November 2026 in Nyamira, Kenya.">
+
+  <meta name="theme-color" content="#fce7ef">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+  <style>
+    :root {
+      --pink: #f8dce7;
+      --pink-dark: #b9577b;
+      --blue: #dceefa;
+      --blue-dark: #397da6;
+      --cream: #fffaf7;
+      --ink: #39323b;
+      --muted: #716875;
+      --white: #ffffff;
+      --border: #eee3e9;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
+
+    body {
+      background: var(--cream);
+      color: var(--ink);
+      font-family: "DM Sans", sans-serif;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+      font-family: "Playfair Display", serif;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+
+    .eyebrow {
+      color: var(--pink-dark);
+      text-transform: uppercase;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 14px;
+    }
+
+    .section {
+      padding: 85px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 42px;
+    }
+
+    .section-heading p {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .button {
+      display: inline-block;
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 23px;
+      text-decoration: none;
+      font: inherit;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .button-pink {
+      background: var(--pink-dark);
+      color: white;
+    }
+
+    .button-blue {
+      background: var(--blue);
+      color: #285b78;
+    }
+
+    .button-outline {
+      border: 1px solid var(--pink-dark);
+      color: var(--pink-dark);
+      background: transparent;
+    }
+
+    /* Navigation */
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(255, 250, 247, 0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      font-family: "Playfair Display", serif;
+      font-size: 1.35rem;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: var(--pink-dark);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 16px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .nav-links a:hover {
+      color: var(--pink-dark);
+    }
+
+    /* Hero */
+
+    .hero {
+      min-height: 650px;
+      padding: 75px 0;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at 12% 12%, #f8dce7 0, transparent 38%),
+        radial-gradient(ellipse at 88% 85%, #dceefa 0, transparent 40%),
+        var(--cream);
+    }
+
+    .hero-inner {
+      width: min(850px, 90%);
+      margin: auto;
+    }
+
+    .hero-photo {
+      width: min(270px, 70%);
+      height: 300px;
+      object-fit: cover;
+      margin: 0 auto 30px;
+      border-radius: 150px 150px 18px 18px;
+      border: 7px solid rgba(255, 255, 255, 0.8);
+      box-shadow: 0 15px 45px rgba(83, 59, 76, 0.12);
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      letter-spacing: -2px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: var(--pink-dark);
+      font-style: italic;
+    }
+
+    .hero-subtitle {
+      font-size: 1.08rem;
+      margin-bottom: 12px;
+    }
+
+    .hero-date {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--blue-dark);
+      margin-bottom: 26px;
+    }
+
+    .verse {
+      max-width: 600px;
+      margin: 30px auto;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(1.15rem, 3vw, 1.6rem);
+      font-style: italic;
+    }
+
+    .verse-reference {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-size: 0.88rem;
+      color: var(--pink-dark);
+      margin-top: 8px;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    /* Countdown */
+
+    .countdown-section {
+      background: var(--white);
+    }
+
+    .countdown {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      max-width: 700px;
+      margin: 35px auto 0;
+    }
+
+    .count-box {
+      padding: 25px 10px;
+      border-radius: 18px;
+      background: var(--pink);
+      text-align: center;
+    }
+
+    .count-box:nth-child(even) {
+      background: var(--blue);
+    }
+
+    .count-box strong {
+      display: block;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      font-weight: 500;
+    }
+
+    .count-box span {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* Story */
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 55px;
+    }
+
+    .story-photo {
+      height: 430px;
+      object-fit: cover;
+      border-radius: 180px 180px 18px 18px;
+      box-shadow: 15px 15px 0 var(--blue);
+    }
+
+    .story-copy p {
+      margin: 18px 0;
+    }
+
+    .soft-note {
+      background: var(--pink);
+      border-radius: 14px;
+      padding: 18px;
+      margin-top: 25px;
+      font-size: 0.92rem;
+    }
+
+    /* Details */
+
+    .details-section {
+      background: #f1f8fc;
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .detail-card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      border: 1px solid #e4edf3;
+    }
+
+    .detail-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--pink);
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+    }
+
+    .detail-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+    }
+
+    .detail-card p {
+      margin-bottom: 8px;
+    }
+
+    .detail-card .button {
+      margin-top: 14px;
+    }
+
+    /* Programme */
+
+    .programme {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .programme-item {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 22px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .programme-time {
+      color: var(--pink-dark);
+      font-weight: 700;
+    }
+
+    .programme-item h3 {
+      font-size: 1.25rem;
+      margin-bottom: 5px;
+    }
+
+    .programme-item p {
+      font-size: 0.94rem;
+    }
+
+    /* Gallery */
+
+    .gallery-section {
+      background: #fff5f8;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .gallery a {
+      display: block;
+      overflow: hidden;
+      border-radius: 14px;
+      background: var(--pink);
+    }
+
+    .gallery img {
+      height: 280px;
+      object-fit: cover;
+      transition: transform 0.35s;
+    }
+
+    .gallery a:hover img {
+      transform: scale(1.05);
+    }
+
+    .gallery-note {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    /* RSVP */
+
+    .rsvp-section {
+      background:
+        radial-gradient(ellipse at 0% 100%, var(--blue) 0, transparent 45%),
+        radial-gradient(ellipse at 100% 0%, var(--pink) 0, transparent 45%),
+        var(--cream);
+    }
+
+    .rsvp-card {
+      max-width: 760px;
+      margin: auto;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--border);
+      padding: clamp(25px, 6vw, 55px);
+      border-radius: 25px;
+    }
+
+    .rsvp-card p {
+      margin: 16px 0;
+    }
+
+    .rsvp-actions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    /* Practical information */
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .info-card {
+      padding: 25px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+
+    .info-card h3 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+
+    .info-card p {
+      margin-bottom: 10px;
+    }
+
+    /* FAQ */
+
+    .faq {
+      max-width: 760px;
+      margin: auto;
+    }
+
+    details {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    details p {
+      padding-top: 12px;
+    }
+
+    /* Guest messages */
+
+    .message-card {
+      max-width: 700px;
+      margin: auto;
+      padding: 35px;
+      text-align: center;
+      background: var(--blue);
+      border-radius: 20px;
+    }
+
+    .message-card p {
+      margin: 12px 0 22px;
+    }
+
+    /* Footer */
+
+    footer {
+      background: #39323b;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    footer p {
+      color: #e4dce5;
+      margin: 10px 0;
+    }
+
+    footer .footer-names {
+      font-family: "Playfair Display", serif;
+      font-size: 2rem;
+      color: white;
+    }
+
+    .music-button {
+      position: fixed;
+      bottom: 18px;
+      right: 18px;
+      z-index: 15;
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 17px;
+      background: var(--pink-dark);
+      color: white;
+      font: inherit;
+      font-size: 0.85rem;
+      cursor: pointer;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .small-note {
+      font-size: 0.82rem;
+      margin-top: 12px;
+    }
+
+    @media (max-width: 760px) {
+      .nav-inner {
+        padding: 12px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        justify-content: flex-start;
+        gap: 12px;
+      }
+
+      .nav-links a {
+        font-size: 0.78rem;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 55px 0 65px;
+      }
+
+      .hero-photo {
+        height: 270px;
+      }
+
+      .section {
+        padding: 65px 0;
+      }
+
+      .story-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .story-photo {
+        height: 350px;
+        max-width: 450px;
+        margin: auto;
+      }
+
+      .details-grid,
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+
+      .gallery img {
+        height: 210px;
+      }
+
+      .programme-item {
+        grid-template-columns: 80px 1fr;
+        gap: 12px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .countdown {
+        gap: 8px;
+      }
+
+      .count-box {
+        padding: 18px 5px;
+      }
+
+      .count-box span {
+        font-size: 0.68rem;
+      }
+
+      .gallery img {
+        height: 160px;
+      }
+
+      .detail-card {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">Victor <span>&</span> Sharon</a>
+
+      <div class="nav-links">
+        <a href="#story">Our Story</a>
+        <a href="#details">The Day</a>
+        <a href="#programme">Programme</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#faqs">FAQs</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-inner">
+
+      <img class="hero-photo"
+           src="photo.jpg"
+           alt="Victor and Sharon"
+           onerror="this.style.display='none'">
+
+      <p class="eyebrow">Together with our families</p>
+
+      <h1>Victor <span>&</span> Sharon</h1>
+
+      <p class="hero-subtitle">
+        Joyfully inviting you to celebrate our wedding
+      </p>
+
+      <p class="hero-date">Friday, 27 November 2026</p>
+
+      <div class="verse">
+        "I have found the one whom my soul loves."
+        <div class="verse-reference">Song of Solomon 3:4</div>
+      </div>
+
+      <div class="hero-actions">
+        <a class="button button-pink" href="#details">
+          Wedding Details
+        </a>
+
+        <a class="button button-blue" href="#rsvp">
+          Join the Celebration
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- COUNTDOWN -->
+
+    <section class="section countdown-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">The big day</p>
+          <h2>Counting down to forever</h2>
+          <p>
+            A special day, a joyful gathering and the beginning
+            of a beautiful new chapter.
+          </p>
+        </div>
+
+        <div class="countdown" aria-label="Wedding countdown">
+          <div class="count-box">
+            <strong id="days">--</strong>
+            <span>Days</span>
+          </div>
+
+          <div class="count-box">
+            <strong id="hours">--</strong>
+            <span>Hours</span>
+          </div>
+
+          <div class="count-box">
+            <strong id="minutes">--</strong>
+            <span>Minutes</span>
+          </div>
+
+          <div class="count-box">
+            <strong id="seconds">--</strong>
+            <span>Seconds</span>
+          </div>
+        </div>
+
+        <p id="countdown-message"
+           style="text-align:center; margin-top:20px;">
+        </p>
+      </div>
+    </section>
+
+    <!-- OUR STORY -->
+
+    <section class="section" id="story">
+      <div class="container story-grid">
+
+        <div>
+          <img class="story-photo"
+               src="photo.jpg"
+               alt="A photograph of Victor and Sharon"
+               loading="lazy"
+               onerror="this.style.display='none'">
+        </div>
+
+        <div class="story-copy">
+          <p class="eyebrow">Two lives, one celebration</p>
+
+          <h2>A journey worth celebrating</h2>
+
+          <p>
+            Every meaningful journey is made up of moments,
+            lessons, laughter and the people who make life special.
+            Ours has brought us to a day we are delighted to share
+            with our families, friends and loved ones.
+          </p>
+
+          <p>
+            As we prepare to begin this new chapter, we are grateful
+            for the love, prayers and encouragement that have
+            accompanied us along the way.
+          </p>
+
+          <p>
+            We look forward to gathering with you for a day filled
+            with faith, joy, colour and beautiful memories.
+          </p>
+
+          <div class="soft-note">
+            <strong>Our prayer:</strong>
+            May our home be built on faith, patience, kindness
+            and a love that continues to grow.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WEDDING DETAILS -->
+
+    <section class="section details-section" id="details">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">Save the date</p>
+          <h2>The wedding day</h2>
+          <p>
+            Here is everything you need to know as you plan
+            to celebrate with us.
+          </p>
+        </div>
+
+        <div class="details-grid">
+
+          <article class="detail-card">
+            <div class="detail-icon">♡</div>
+            <h3>The Date</h3>
+            <p><strong>Friday, 27 November 2026</strong></p>
+            <p>Church ceremony begins at 9:00 AM.</p>
+            <p>Reception begins at 1:00 PM.</p>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-icon">⌖</div>
+            <h3>The Venue</h3>
+            <p><strong>Kebirigo Main Altar</strong></p>
+            <p>Nyamira, opposite Viongozi.</p>
+            <p>The ceremony and reception will be held at the same venue.</p>
+
+            <a class="button button-blue"
+               href="https://maps.app.goo.gl/wMj3xAvTGBDmD5qa9"
+               target="_blank"
+               rel="noopener">
+              Open Google Maps
+            </a>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-icon">✧</div>
+            <h3>The Celebration</h3>
+            <p><strong>Church wedding</strong></p>
+            <p>Repentance and Holiness Ministry.</p>
+            <p>
+              A joyful celebration of faith, family, friendship
+              and the beginning of a new chapter.
+            </p>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-icon">♡</div>
+            <h3>Our Invitation</h3>
+            <p><strong>From both families</strong></p>
+            <p>
+              We warmly welcome our family, friends and well-wishers
+              to share in this special occasion.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMME -->
+
+    <section class="section" id="programme">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">A day of celebration</p>
+          <h2>Wedding programme</h2>
+          <p>
+            A suggested outline to help you plan your day.
+            The final programme will be confirmed by the families.
+          </p>
+        </div>
+
+        <div class="programme">
+
+          <div class="programme-item">
+            <div class="programme-time">9:00 AM</div>
+            <div>
+              <h3>Church Ceremony</h3>
+              <p>
+                Join us for the wedding ceremony and a celebration
+                of faith and commitment.
+              </p>
+            </div>
+          </div>
+
+          <div class="programme-item">
+            <div class="programme-time">After ceremony</div>
+            <div>
+              <h3>Photography & Fellowship</h3>
+              <p>
+                An opportunity for photographs, greetings
+                and fellowship with family and friends.
+              </p>
+            </div>
+          </div>
+
+          <div class="programme-item">
+            <div class="programme-time">1:00 PM</div>
+            <div>
+              <h3>Reception</h3>
+              <p>
+                Continue the celebration with joyful moments
+                and time together.
+              </p>
+            </div>
+          </div>
+
+          <div class="programme-item">
+            <div class="programme-time">To be confirmed</div>
+            <div>
+              <h3>Speeches, Cake & Celebrations</h3>
+              <p>
+                The final reception programme will be shared
+                when arrangements are confirmed.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">Moments we treasure</p>
+          <h2>Our photo gallery</h2>
+          <p>
+            A few photographs celebrating our journey
+            and the people who make it special.
+          </p>
+        </div>
+
+   
